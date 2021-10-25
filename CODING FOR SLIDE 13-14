@@ -1,0 +1,22 @@
+package selfProgramming;
+
+public class Facts {
+
+	public static void main(String[] args) {
+		// String >> "" boleh disatukan/digabungkan jadi satu string yg panjang dgn '+'.
+		System.out.println("We present the following facts for your " + "extracurricular edification: ");
+		
+		System.out.println();
+		
+		// String boleh ada number.... tapi number tu adalah string bkn integer. 
+		System.out.println("Letters in the Hawaiian alphabet: 12");
+		
+		// Cth number yg datanya integer yg digabung dgn string >>>
+		System.out.println("Dialing code for Antarctica: " + 672);
+		
+		System.out.println("Year in which Leonardo da Vinci invented " + "the parachute: "+ 1515);
+		
+		System.out.println("Speed of ketchup: " + 40 + " km per year");
+	}
+
+}
