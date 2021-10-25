@@ -1,0 +1,57 @@
+package numericData;
+
+
+//Based on your previous result spm/matriks/diploma …..kira declare variable utk semua sem
+//Kira gpa sem 1 brapa sem 2 brapa
+//Finally kira cgpa
+
+
+public class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String name       = "MUHAMMAD IMAN ZULHAKIM BIN MOHD ZULKHORI";
+		String programme  = "Science";
+		String college    = "Kedah Matriculation College";
+		String session    = "2020/2021";
+		
+		//sem1
+		char   csc1       = 'A';
+		String chemist1   = "B+";
+		String math1      = "A-";
+		char   physics1   = 'A';
+		
+		//sem2
+		char   csc2       = 'A';
+		String chemist2   = "B+";
+		String math2      = "B+";
+		char   physics2   = 'A';
+		
+		double A          = 4.00;
+		double Aminus	  = 3.67;
+		double Bplus	  = 3.33;
+		
+		//gpa sem1
+		double gpa1 	  = (A+Bplus+Aminus+A)/4;
+		
+		//gpa sem2		 
+		double gpa2  	  = (A+Bplus+Bplus+A)/4;
+		
+		//cgpa
+		double cgpa  	  = (gpa1+gpa2)/2;
+		
+		System.out.println("Name :" +name);
+		System.out.println("Programme :" +programme);
+		System.out.println("College :" + college);
+		System.out.println("Session :" +session);
+		System.out.println("\nYour GPA for Semester 1 :" +gpa1);
+		System.out.printf("Your GPA for Semester 2 :%.2f" , gpa2);
+		System.out.printf("\nYour CGPA is : %.2f" , cgpa);
+		
+		
+		
+
+	}
+
+}
