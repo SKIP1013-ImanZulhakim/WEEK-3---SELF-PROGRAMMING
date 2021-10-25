@@ -1,0 +1,18 @@
+package selfProgramming;
+
+public class Addition {
+
+	public static void main(String[] args) {
+		
+		// Perbezaan print out gabungan num dan hasil tambah num.
+		
+		System.out.println("24 and 45 concatnated: " + 24 + 45);
+		
+		System.out.println("24 and 45 added: " +(24+45));
+		
+		//bezanya untuk hasil tambah perlu ada kurungan ()
+		
+		
+	}
+
+}
