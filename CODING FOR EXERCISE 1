@@ -1,0 +1,46 @@
+package numericData;
+
+public class Exercise1 {
+
+	public static void main(String[] args) {
+		
+	   //Declare 5 num
+		int num1 = 11;
+		int num2 = 22;
+		int num3 = 33;
+		int num4 = 44;
+		int num5 = 55;
+		double num6 = 66;
+		double num7 = 88;
+		float num8 = 99;
+		float num9 = 200;
+		int sum,avg;
+		double div, mult;
+		float div2,mult2;
+		//Calculate sum
+		sum = num1 + num2 + num3 + num4 + num5 ;
+		avg = sum/5 ;
+		div = num7/num6;
+		div2 =num9/num8;
+		mult = num1*num2*num3*num4*num5*num6*num7*num8*num9;
+		mult2 = (num1*num2)/num3;
+		
+		System.out.print("The sum is : ");
+		
+		System.out.println(sum);
+		
+		System.out.println("The average is : " + avg);
+		
+		System.out.printf("The divide number is : %.2f  " , div);
+		
+		System.out.println();
+		
+		System.out.printf("The division of float number is  : %.2f  " , div2);
+		
+		System.out.printf("\nThe multiply is : %.2f " , mult);
+		
+		System.out.printf("\nThe multiply of num1 and num2 then divided by num3 is : %.2f " , mult2);
+		
+	}
+
+}
